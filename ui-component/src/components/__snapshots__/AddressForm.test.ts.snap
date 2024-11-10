@@ -1,0 +1,93 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Snapshot 1`] = `
+<div>
+  bound HTMLFormElement {
+    "0": <fieldset>
+      <legend>
+        連絡先
+      </legend>
+      <div>
+        <label>
+           電話番号 
+          <input
+            name="phoneNumber"
+            type="text"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+           お名前 
+          <input
+            name="name"
+            type="text"
+          />
+        </label>
+      </div>
+    </fieldset>,
+    "1": <input
+      name="phoneNumber"
+      type="text"
+    />,
+    "2": <input
+      name="name"
+      type="text"
+    />,
+    "3": <fieldset>
+      <legend>
+        新しいお届け先を登録しますか？
+      </legend>
+      <label>
+        <input
+          name="registerDeliveryAddress"
+          type="radio"
+          value="0"
+        />
+         いいえ 
+      </label>
+      <label>
+        <input
+          name="registerDeliveryAddress"
+          type="radio"
+          value="1"
+        />
+         はい 
+      </label>
+    </fieldset>,
+    "4": <input
+      name="registerDeliveryAddress"
+      type="radio"
+      value="0"
+    />,
+    "5": <input
+      name="registerDeliveryAddress"
+      type="radio"
+      value="1"
+    />,
+    "6": <fieldset
+      disabled=""
+      style="opacity: 0.3;"
+    >
+      <legend>
+        過去のお届け先
+      </legend>
+      bound HTMLSelectElement {
+        "0": <option
+          value="address_id_xxx"
+        />,
+      }
+    </fieldset>,
+    "7": bound HTMLSelectElement {
+      "0": <option
+        value="address_id_xxx"
+      />,
+    },
+    "8": <button
+      type="submit"
+    >
+      注文内容の確認へ進む
+    </button>,
+  }
+</div>
+`;
